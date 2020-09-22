@@ -1,0 +1,52 @@
+.headmenu
+{
+	display: flex;
+	justify-content:flex-end;
+
+}
+
+.headelement {
+	padding-left: 15px;
+
+}
+
+.conteneur1
+{
+	display: flex;
+	flex-direction: row;	
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.footer {
+	position : absolute;
+	bottom:0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%
+}
+
+.borderRed {
+	border: solid 1px red;	
+}
+
+
+.borderGreen {
+	border: solid 1px green;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 200px
+
+}
+
+.search {
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+
+}
